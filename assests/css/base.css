@@ -1,0 +1,40 @@
+:root{
+    --color-one: #8261EE;
+    --color-two: #FF589E;
+    --color-text: #1e1e1e;
+
+    --font: 'raleway', sans-serif;
+}
+
+body{
+    color: var(--color-text);
+    line-height: 1.6;
+    font-family: var(--font);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: var(--color-one);
+    text-decoration: underline;
+}
+
+/* button */
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color:#fff;
+    color:var(--color-text);
+    font-size: 14px;
+    font-weight: 500;
+}
+.button-two{
+    background-color: var(--color-two);
+    color: #fff;
+}
+.button-two:hover{
+    background-color: var(--color-one);
+    color: #fff;
+}
+/* end button */
